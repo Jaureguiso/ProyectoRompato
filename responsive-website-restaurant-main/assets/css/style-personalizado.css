@@ -1,0 +1,29 @@
+.card-product{
+    background: rgb(15, 17, 16);
+    margin: 0 10px 20px;
+    width: 230px;
+}
+.title-page{
+    margin-top: 80px;
+    text-align: center;
+    font-size: 3rem;
+}
+.section-products{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 5px 0;
+}
+
+.img-product{
+    width: 130px;
+    height: 130px;
+    border-radius: 50px;
+    align-self: center;
+    margin-bottom: 1rem;
+}
+
+.title-section{
+    margin: 0 40px;
+    border-bottom: 1px solid var(--text-color);
+}

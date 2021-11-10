@@ -9,8 +9,9 @@
 
         <!--========== CSS ==========-->
         <link rel="stylesheet" href="assets/css/styles.css">
-
-        <title>Responsive website food</title>
+        <!--========== Icon ==========-->
+        <link rel="shortcut icon" href="./assets/img/lacapitallogo.jpg" type="image/x-icon">
+        <title>La Capital</title>
     </head>
     <body>
 
@@ -29,7 +30,8 @@
                         <li class="nav__item"><a href="#home" class="nav__link active-link">Principal</a></li>
                         <li class="nav__item"><a href="#about" class="nav__link">Acerca de</a></li>
                         <li class="nav__item"><a href="#services" class="nav__link">Servicios</a></li>
-                        <li class="nav__item"><a href="#menu" class="nav__link">Menú</a></li>
+                        <li class="nav__item"><a href="#menu" class="nav__link">Mas solicitados</a></li>
+                        <li class="nav__item"><a href="./Menu.html" class="nav__link">Menú</a></li>
                         <li class="nav__item"><a href="#contact" class="nav__link">Contactanos</a></li>
                     </ul>
                 </div>
@@ -47,7 +49,7 @@
                     <div class="home__data">
                         <h1 class="home__title">La Capital</h1>
                         <h2 class="home__subtitle">Prueba la mejor comida de la semana</h2>
-                        <a href="#" class="button">Ver menú</a>
+                        <a href="#menu" class="button">Ver menú</a>
                     </div>
     
                     <img src="assets/img/lacapitallogo.jpg" alt="" class="home__img">
@@ -136,7 +138,7 @@
                             16.8875 47.057C17.3045 47.4744 17.9811 47.4746 18.3984 47.0576C18.8157 
                             46.6405 18.816 45.964 18.3989 45.5466Z"/>
                         </svg>
-                        <h3 class="services__title">Excellent food</h3>
+                        <h3 class="services__title">Excelente comida</h3>
                         <p class="services__description">Ofrecemos a nuestros clientes servicios de excelente calidad desde hace muchos años, con la mejor y deliciosa comida de la ciudad.</p>
                     </div>
 
@@ -293,7 +295,7 @@
                             </clipPath>
                             </defs>
                         </svg>
-                        <h3 class="services__title">Fast food</h3>
+                        <h3 class="services__title">Comida rapida</h3>
                         <p class="services__description">Ofrecemos a nuestros clientes servicios de excelente calidad desde hace muchos años, con la mejor y deliciosa comida de la ciudad.</p>
                     </div>
 
@@ -397,9 +399,20 @@
                         <p class="contact__description">Si quieres reservar comida para un evento, contáctanos y te atenderemos rápidamente, con nuestro servicio de chat 24/7..</p>
                     </div>
 
-                    <div class="contact__button">
-                        <a href="#" class="button">Contactanos ahora</a>
-                    </div>
+                </div>
+                <div class="contact__form">
+                    <form action="mailto:augustomartinezt5@gmail.com" method="post" class="form">
+                        <div class="form__section-1">
+                            <input name="nombre" type="text" placeholder="Ingrese su nombre" class="input__contact name__contact">
+                            <input name="email" type="email" placeholder="Ingrese su email" class="input__contact email__contact">
+                        </div>
+                        <div class="form__section-2">
+                            <textarea name="mensaje" class="input__contact menssage__contact" placeholder="Ingrese el mensaje"></textarea>
+                        </div>
+                        <div class="contact__button">
+                            <button type="submit" class="button" style="border: 1px solid transparent; margin-left: 10px;">Contactanos ahora</button>
+                        </div>
+                    </form>
                 </div>
             </section>
         </main>
@@ -445,7 +458,7 @@
                 </div>
             </div>
 
-            <p class="footer__copy">&#169; 2021 Bedimcode. Todos los derechos reservados</p>
+            <p class="footer__copy">&#169; 2021 Horus Technology. Todos los derechos reservados</p>
         </footer>
 
         <!--========== SCROLL REVEAL ==========-->
